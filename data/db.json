@@ -1,45 +1,81 @@
 {
   "decks": [
     {
-      "name": "React",
-      "description": "all about React Routers",
-      "id": 10
+      "id": 1,
+      "name": "Render ",
+      "description": "React's component structure allows for quickly building a complex web application that relies on DOM manipulation. "
     },
     {
-      "name": "simon mp",
-      "description": "lalojsjijdishjufhihi",
+      "name": "React Router",
+      "description": "React Router is a collection of navigational components that compose declaratively with your application.",
+      "id": 2
+    },
+    {
+      "name": "lskjkjdsjfjsdfksdhiufgiuguyigigigifguyfufuihigui",
+      "description": "koidshigfiugdugfudgufghsdgighiuhiiuiiskjdhfiuhisdiudhigfuigaofodihiuguycgiuaduhwudfu8widjhiuh",
+      "id": 3
+    }
+  ],
+  "cards": [
+    {
+      "front": "What does <Switch> do?",
+      "back": "Renders the first matching child <Route> ",
+      "deckId": 2,
+      "id": 5
+    },
+    {
+      "front": "React eza bo makassss mutu pe esengi pardon  hhgyg333",
+      "back": "Not at all, are u sure ?",
+      "deckId": 1,
+      "id": 6
+    },
+    {
+      "front": "React eza bo makassss mutu pe esengi pardon  hhgyg333",
+      "back": "Not at all, are u sure ?",
+      "deckId": 1,
+      "id": 7
+    },
+    {
+      "front": "React eza bo makassss mutu pe esengi pardon  hhgyg333",
+      "back": "Not at all, are u sure ?",
+      "deckId": 1,
+      "id": 8
+    },
+    {
+      "front": "give me some money ",
+      "back": " awwww i dont have any ",
+      "id": 9,
+      "deckId": 1
+    },
+    {
+      "front": "React eza bo makassss mutu pe esengi pardon  hhgyg333",
+      "back": "Not at all, are u sure ?",
+      "deckId": 1,
       "id": 11
     },
     {
-      "name": "simon o",
-      "description": "jdijhijsjabxijhbhiuhbjhhgfgf",
+      "front": "dfgdg",
+      "back": "gghff",
+      "deckId": 2,
       "id": 12
     },
     {
-      "name": "Learn React in 2 weeks ",
-      "description": "all about learning react in 2 weeks ",
+      "front": "hjfjbjibaj",
+      "back": "jhasidhiuhih",
+      "deckId": 1,
       "id": 13
     },
     {
-      "name": "dkkk",
-      "description": "jksahugfsygfuygsyugsuy",
+      "front": "nbHBHB",
+      "back": "GFAYUFUYFY",
+      "deckId": 1,
       "id": 14
     },
     {
-      "name": "Learn React in 2 weeks with Bob",
-      "description": "All about learning  react in 2 weeks  with bob ",
+      "front": "React eza bo makassss mutu pe esengi pardon  hhgyg333",
+      "back": "sdfdsfds",
+      "deckId": 1,
       "id": 15
-    },
-    {
-      "name": "simon",
-      "description": "dfgfdh",
-      "id": 16
-    },
-    {
-      "name": "dflmklk",
-      "description": "kmkfjpjpoejpoj",
-      "id": 17
     }
-  ],
-  "cards": []
+  ]
 }

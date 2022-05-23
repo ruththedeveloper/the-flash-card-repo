@@ -322,7 +322,7 @@ describe("Decks", () => {
       </Router>
     );
 
-    const deckName = await screen.findByText("Mock Study Deck 13");
+    const deckName = await screen.findByText(/Mock Study Deck 13/i);
     expect(deckName).toBeTruthy();
 
     const notEnoughCards = await screen.findByText(/Not enough cards/i);
