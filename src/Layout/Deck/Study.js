@@ -94,6 +94,11 @@ export default function Study() {
   } else {
     return (
       <div>
+        <Nav
+          pageTitle="Study"
+          previousPageTitle={deck.name}
+          previousPageLink={`/decks/${deck.id}`}
+        />
         <h3>{deck.name + ': Study'}</h3>
         <h6> Not enough cards.</h6>
         <p>
