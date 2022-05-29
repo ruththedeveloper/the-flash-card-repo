@@ -57,6 +57,9 @@ export default function Study() {
       setCardFlipped(false);
     }
   }
+  
+  
+  
   if (deck.cards?.length > 2) {
     return (
       <div>
@@ -94,12 +97,13 @@ export default function Study() {
   } else {
     return (
       <div>
-        <Nav
+         <Nav
           pageTitle="Study"
           previousPageTitle={deck.name}
           previousPageLink={`/decks/${deck.id}`}
         />
-        <h3>{deck.name + ': Study'}</h3>
+        
+        <h3>{deck.name +' :Study'}</h3>
         <h6> Not enough cards.</h6>
         <p>
         {'You need at least 3 cards to study. There are ' + deck?.cards?.length + ' cards in this deck.'}

@@ -58,8 +58,8 @@ export default function EditAndAddForm({ card, deck, editing }) {
         <textarea
           name="front"
           onChange={handleChange}
-          // value={formData?.front}
-          defaultValue={card? card.front: ""}
+           value={formData?.front}
+          //defaultValue={card? card.front: ""}
           type="text"
           className="form-control"
           id="formGroupExampleInput"
@@ -71,8 +71,8 @@ export default function EditAndAddForm({ card, deck, editing }) {
         <textarea
           name="back"
           onChange={handleChange}
-          defaultValue={card? card.back : ""}
-          // value={formData?.back}
+          //defaultValue={card? card.back : ""}
+          value={formData?.back}
           type="text"
           className="form-control"
           id="formGroupExampleInput2"
