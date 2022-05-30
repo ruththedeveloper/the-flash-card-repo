@@ -85,14 +85,14 @@ export default function Deck() {
             <Study />
           </Route>
           <Route path="/decks/:deckId/edit">
-            <EditDeck />
+            <EditDeck  change={notifyDeckOfChange}/>
           </Route>
           <Route path="/decks/:deckId/cards/new">
-            <AddCard />
+            <AddCard  change={notifyDeckOfChange} />
           </Route>
 
           <Route path="/decks/:deckId/cards/:cardId/edit">
-            <EditCard />
+            <EditCard  change={notifyDeckOfChange} />
           </Route>
           <Route exact path="/decks/:deckId">
             <Nav pageTitle={deck.name} />
