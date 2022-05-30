@@ -3,7 +3,7 @@ import Nav from "../Nav";
 import * as Utils from "../../utils/api";
 import { useParams, Link, useHistory } from "react-router-dom";
 
-export default function EditDeck() {
+export default function EditDeck({ change }) {
   const history = useHistory();
   const [deck, setDeck] = useState({});
   const [formData, setFormData] = useState({ name: "", description: "" });
@@ -26,7 +26,7 @@ export default function EditDeck() {
     async function loadDeckId() {
       try {
         const response = await Utils.readDeck(deckId, abortController.signal);
-        
+
         setFormData(response);
         setDeck(response);
       } catch (error) {
@@ -49,6 +49,7 @@ export default function EditDeck() {
 
     try {
       const response = await Utils.updateDeck(formData, abortController.signal);
+      change();
       history.push(`/decks/${response.id}`);
     } catch (error) {
       if (error.name !== "AbortError") {
